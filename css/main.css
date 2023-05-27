@@ -1,0 +1,237 @@
+/* cor de fundo da Home*/
+body {
+    background-color: black;
+    border: none;
+    overflow-x: hidden;
+}
+.buttonLogin {
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    width: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.buttonLogin img {
+    width: 45px;
+    height: 35px;
+}
+.buttonCarrinho {
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+    width: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.buttonCarrinho img {
+    width: 45px;
+    height: 55px;
+}
+.buttonLogo {
+    position: relative;
+    top: -8px;
+    left: 40px;
+    width: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.buttonLogo img {
+    width: 360px;
+    height: 120px;
+}
+
+/* Faixa roxa da Logo */
+#topo {
+    height: 110px;
+    background: #800080;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+/*Barra de pesquisa*/
+.search-container {
+    position: relative;
+    top: -60px;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button img {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Faixa roxo claro da lista de paginas */
+ul.horizontal-list {
+    height: 30px;
+    background: #BA55D3;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+}
+
+/* Ajuste de posição dos botões genero, mais vendidos, promoção */
+ul.horizontal-list {
+    list-style-type: none;
+    padding: 10;
+    margin: 20;
+    display: flex;
+}
+
+ul.horizontal-list li {
+    margin-right: 10px;
+}
+
+/* estlizando botoes da barra (Genero, vendidos, promoção)*/
+.buttonGener {
+    font-family: Georgia, serif;
+    font-weight: 800;
+    position: relative;
+    top: 3px;
+    left: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.buttonGener:hover {
+    background-color: #DA70D6;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.buttonVendidos {
+    font-family: Georgia, serif;
+    font-weight: 800;
+    position: relative;
+    top: 3px;
+    left: 300px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.buttonVendidos:hover {
+    background-color: #DA70D6;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.buttonPromotion {
+    font-family: Georgia, serif;
+    font-weight: 800;
+    position: relative;
+    top: 3px;
+    left: 600px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.buttonPromotion:hover {
+    background-color: #DA70D6;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/*  Efeito de exibir botoes de categorias dentro do botao Generos quando passa o mouse*/
+.category-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.category-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #C71585;
+    border-radius: 10px;
+    padding: 10px;
+    list-style-type: none;
+    z-index: 999;
+}
+
+.category-menu:hover .category-list {
+    display: block;
+}
+
+/* Aparencia dos botoes dentro de Generos (fantasia, terror etc)*/
+.buttonFantasy {
+    margin-bottom: 10px;
+    background-color: #BA55D3;
+    border: none;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.buttonFantasy:hover {
+    box-shadow: 0 0 5px rgba(10, 10, 10, 10);
+}
+
+.buttonLGBT {
+    margin-bottom: 10px;
+    background-color: #BA55D3;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+.buttonLGBT:hover {
+    box-shadow: 0 0 5px rgba(10, 10, 10, 10);
+}
+
+.buttonHorror {
+    margin-bottom: 10px;
+    background-color: #BA55D3;
+    border: none;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.buttonHorror:hover {
+    box-shadow: 0 0 5px rgba(10, 10, 10, 10);
+}
+.buttonAutoras {
+    margin-bottom: 10px;
+    background-color: #BA55D3;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+.buttonAutoras:hover {
+    box-shadow: 0 0 5px rgba(10, 10, 10, 10);
+}

@@ -1,0 +1,284 @@
+.bannerLGBT {
+    position: relative;
+    top: -25px;
+    left: 35px;
+    width: 1300px;
+}
+.buttonLogin {
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    width: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.buttonLogin img {
+    width: 45px;
+    height: 35px;
+}
+.buttonCarrinho {
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+    width: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.buttonCarrinho img {
+    width: 45px;
+    height: 55px;
+}
+.buttonHeartStopper {
+    position: relative;
+    top: 3px;
+    left: 40px;
+    width: 200px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+
+.buttonHeartStopper:hover {
+    transform: translateY(-40px);
+}
+
+.buttonHeartStopper img {
+    width: 200px;
+    height: 280px;
+}
+
+.button-description {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+
+.preco {
+    font-weight: bold;
+    color: green;
+}
+.buttonMaldiçãoHill {
+    position: absolute;
+    top: 620px;
+    left: 260px;
+    width: 500px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+.preco1 {
+    font-weight: bold;
+    color: green;
+}
+.buttonMaldiçãoHill:hover {
+    transform: translateY(-40px);
+}
+
+.buttonMaldiçãoHill img {
+    width: 180px;
+    height: 280px;
+}
+
+.button-description2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: -120px;
+    left: 380px;
+}
+.buttonVerity {
+    position: absolute;
+    top: 620px;
+    left: 590px;
+    width: 500px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+.preco2 {
+    font-weight: bold;
+    color: green;
+}
+.buttonVerity:hover {
+    transform: translateY(-40px);
+}
+
+.buttonVerity img {
+    width: 180px;
+    height: 280px;
+}
+
+.button-description3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: -245px;
+    left: 780px;
+}
+.buttonGarotaLago {
+    position: absolute;
+    top: 620px;
+    left: 890px;
+    width: 500px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+.preco3 {
+    font-weight: bold;
+    color: green;
+}
+.buttonGarotaLago:hover {
+    transform: translateY(-40px);
+}
+
+.buttonGarotaLago img {
+    width: 180px;
+    height: 280px;
+}
+
+.button-description4 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: -370px;
+    left: 1050px;
+}
+
+.button7maridos {
+    position: relative;
+    top: -350px;
+    left: 40px;
+    width: 200px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+
+.button7maridos:hover {
+    transform: translateY(-40px);
+}
+
+.button7maridos img {
+    width: 200px;
+    height: 280px;
+}
+
+.button-description5 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: -350px;
+    left: 40px;
+}
+
+.preco4 {
+    font-weight: bold;
+    color: green;
+}
+
+.buttonPacienteSilenciosa {
+    position: relative;
+    top: -760px;
+    left: 400px;
+    width: 200px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+
+.buttonPacienteSilenciosa:hover {
+    transform: translateY(-40px);
+}
+
+.buttonPacienteSilenciosa img {
+    width: 200px;
+    height: 280px;
+}
+
+.button-description6 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: -760px;
+    left: 400px;
+}
+
+.preco5 {
+    font-weight: bold;
+    color: green;
+}
+.buttonEstilhaça {
+    position: relative;
+    top: -1165px;
+    left: 730px;
+    width: 200px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+
+.buttonEstilhaça:hover {
+    transform: translateY(-40px);
+}
+
+.buttonEstilhaça img {
+    width: 200px;
+    height: 280px;
+}
+
+.button-description7 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: -1165px;
+    left: 780px;
+}
+
+.preco6 {
+    font-weight: bold;
+    color: green;
+}
+.buttonApenasGarota {
+    position: relative;
+    top: -1575px;
+    left: 1030px;
+    width: 200px;
+    border: none;
+    background: none;
+    transition: transform 0.3s ease;
+}
+
+.buttonApenasGarota:hover {
+    transform: translateY(-40px);
+}
+
+.buttonApenasGarota img {
+    width: 200px;
+    height: 285px;
+}
+
+.button-description8 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #999;
+    position: relative;
+    top: -1575px;
+    left: 1050px;
+}
+
+.preco7 {
+    font-weight: bold;
+    color: green;
+}

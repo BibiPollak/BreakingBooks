@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <title>BreakingBooks</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/ConteudoHome.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <script src="js/javascript.js"></script>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div id="topo">
+                <div class="logo">
+                    <button class="buttonLogo">
+                        <img src="img/Logo - BreakingBooks.png" alt="Logo" onclick="showHome()">
+                    </button>
+                </div>
+            </div>
+            <div class="Login">
+                <button class="buttonLogin">
+                    <img src="img/IconeLogin.png" alt="Login" onclick="showLogin()">
+                </button>
+            </div>
+            <div class="Carrinho">
+                <button class="buttonCarrinho">
+                    <img src="img/iconCarrinho.png" alt="Carrinho" onclick="showCarrinho()">
+                </button>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Pesquisar...">
+                <button class="search-button">
+                    <img src="img/lupa.png" alt="Lupa">
+                </button>
+            </div>
+        </main>
+    </header>
+    <main>
+        <div id="paginas">
+            <ul class="horizontal-list">
+                <li>
+                    <div class="category-menu">
+                        <button class="buttonGener">Gêneros</button>
+                        <ul class="category-list">
+                            <li><button class="buttonFantasy" onclick="showFantasy()">Fantasia</button></li>
+                            <li><button class="buttonLGBT" onclick="showLGBT()">LGBTQIAP+</button></li>
+                            <li><button class="buttonHorror" onclick="showHorror()">Terror</button></li>
+                            <li><button class="buttonAutoras" onclick="showAutoras()">Literatura Feminina</button></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><button class="buttonVendidos" onclick="showVendidos()">Mais Vendidos</button></li>
+                <li><button class="buttonPromotion" onclick="showPromotions()">Promoções</button></li>
+            </ul>
+        </div>
+    </main>
+    <main>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de login</title>
+        <div id="login">
+            <h1>Login</h1>
+            <input type="text" placeholder="Email">
+            <br><br>
+            <input type="password" placeholder="Senha">
+            <br><br>
+            <button class="buttonEnviar">Enviar</button>
+            <br><br>
+            <button class="buttonFazerCadastro" onclick="showCadastro()">Fazer cadastro</button>
+        </div>
+    </main>
+</body>
+
+</html>
